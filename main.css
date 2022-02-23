@@ -6,6 +6,7 @@ html {
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
     background: #ffffff;
+    position: relative;
 }
 
 
@@ -151,6 +152,7 @@ header .template-content-rigth img {
     display: block;
     width: 1170px;
     margin: 0 auto;
+    padding-bottom: 600px;
 }
 
 .template-main section {
@@ -319,6 +321,65 @@ span {
     padding-top: 40px;
 }
 
+
+/** template 6**/
+
+.template-6 {
+    display: flex !important;
+    flex-direction: row;
+    width: 1170px;
+}
+
+.template-6-half-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.template-6-half-2 h6 {
+    position: absolute;
+    bottom: 800px;
+    font-size: 45px;
+    color: #242f51;
+}
+
+.template-6-half-2 span {
+    position: absolute;
+    bottom: 700px;
+    font-size: 16px;
+    color: #8b8d90;
+    width: 640px;
+}
+
+.template-6-half-2 .image-rigth {
+    display: block;
+    position: absolute;
+    right: 0;
+    z-index: 11;
+    bottom: 480px;
+}
+
+.template-6 .dowload-icon {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 600px;
+}
+
+.dowload-icon img {
+    padding: 15px;
+}
+
+/** footer **/
+
+footer {
+    pposition: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 540px;
+    background: #09142e;
+    z-index: 9;
+}
 
 /**general code**/
 
