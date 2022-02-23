@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body,
+html {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    background: #ffffff;
+}
+
+
+/**
+nav template
+**/
+
+nav {
+    margin: 0 auto;
+    width: 1170px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav img {
+    width: 117px;
+    height: 32px;
+    padding-right: 366px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    padding-right: 32px;
+}
+
+nav ul li:nth-child(6) {
+    width: 170px;
+    height: 60px;
+}
+
+.template-link {
+    display: block;
+    padding-top: 21px;
+    text-decoration: none;
+    color: #242f51;
+}
+
+.template-button-free {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #2500f9;
+    font-weight: bold;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.template-button-free span {
+    display: block;
+    padding: 21px 30px 21px 30px;
+    color: #ffff;
+}
+
+
+/**
+header template
+**/
+
+header {
+    display: flex;
+    margin: 0 auto;
+    width: 1600px;
+    height: 997px;
+    background-image: url('header-background.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+/**
+header
+**/
+
+header .template-content-left {
+    display: block;
+    width: 530px;
+    height: 375px;
+    padding-top: 255px;
+    padding-left: 290px;
+}
+
+.template-content-left img {
+    display: block;
+}
+
+header div h1 {
+    font-size: 60px;
+    color: #242f51;
+}
+
+header div p {
+    font-size: 18px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #616368;
+}
+
+header .template-content-bottom button {
+    background-color: #2500f9;
+    color: #fff;
+    font-size: 16px;
+    width: 170px;
+    height: 57px;
+    border-radius: 30px;
+    margin-right: 27px;
+    font-weight: bold;
+}
+
+header .template-content-bottom a {
+    text-decoration: none;
+    color: #2500f9;
+}
+
+header .template-content-rigth {
+    float: right;
+    padding-left: 104px;
+}
+
+header .template-content-rigth img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+/**MAIN**/
+
+
+/** template content 1 **/
+
+.template-main {
+    display: block;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.template-main section {
+    display: block;
+    margin: 0 auto;
+}
+
+.template-main-p p {
+    text-align: center;
+    color: #242f51;
+    font-size: 22px;
+}
+
+.template-main-companies {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    padding-top: 69px;
+}
+
+.template-main-companies span {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+/** template content 2 **/
+
+.template-content-2 {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 195px;
+    height: 1000px;
+}
+
+.template-content-2 h3 {
+    color: #242f51;
+}
+
+.template-content-2 p,
+span {
+    color: #717478;
+}
+
+.template-content-2 .icon-left {
+    width: 470px;
+}
+
+.template-content-2 div:nth-child(1) img {
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    transform: translateX(-100px);
+}
+
+.template-content-2 div:nth-child(2) p {
+    padding-top: 33px;
+    padding-bottom: 40px;
+}
+
+.template-content-elipse {
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.template-content-elipse .elipse-image {
+    padding-right: 30px;
+}
+
+.template-elipses-rigth {
+    width: 430px;
+    padding-right: 170px;
+}
+
+.template-elipses-rigth h3 {
+    font-size: 36px;
+}
+
+
+/** template content 3**/
+
+.template-content-3 div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1170px;
+    height: 160px;
+}
+
+.template-content-3 div h5 {
+    font-size: 40px;
+    color: #242f51;
+    display: block;
+    width: 425px;
+    padding-right: 180px;
+}
+
+.template-content-3 div p {
+    font-size: 20px;
+    display: block;
+    width: 400px;
+}
+
+
+/** template content 4**/
+
+.template-content-4 {
+    width: 1170px;
+    padding-top: 200px;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.template-content-4 div {
+    display: block;
+    width: 230px;
+    height: 250px;
+}
+
+.template-content-4 div:nth-child(3) {
+    width: 260px !important;
+}
+
+.template-content-4 div img {
+    padding-bottom: 34px;
+}
+
+.template-content-4 div p {
+    color: #616267;
+}
+
+
+/** template content 5**/
+
+.template-content-5 {
+    display: grid !important;
+    width: 1170px;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 150px;
+}
+
+.template-content-5 div img {
+    display: block;
+    width: 590px;
+    height: auto;
+    transform: translateX(-130px);
+}
+
+.template-content-5 .template-content-5-text {
+    width: 400px;
+    height: 300px;
+}
+
+.template-content-5 div h6 {
+    color: #242f51;
+    font-size: 36px;
+    padding-top: 270px;
+}
+
+.template-content-5 div p {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+
+/**general code**/
+
+.red {
+    color: #f55767;
+    font-size: 20px;
+}
+
+.blue {
+    font-size: 20px;
+    color: #2563ff;
+}
+
+.green {
+    font-size: 20px;
+    color: #40975f;
+}
+
+.template-content-5-button {
+    display: block;
+    width: 170px;
+    height: 60px;
+    background-color: #2500f9;
+    font-weight: bold;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffff;
+    font-size: 16px;
+}

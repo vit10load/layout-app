@@ -1,2 +1,1 @@
-# layout-app
-Template base web
+# layout app
