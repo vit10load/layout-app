@@ -372,13 +372,55 @@ span {
 
 /** footer **/
 
-footer {
+.footer {
     pposition: absolute;
     bottom: 0;
     width: 100%;
     height: 540px;
     background: #09142e;
     z-index: 9;
+}
+
+.footer .footer-content {
+    display: block;
+    width: 570px;
+    height: 300px;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.app {
+    font-size: 30px;
+    color: #fcae61;
+    font-weight: bold;
+}
+
+.lab {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.footer-content ul {
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.footer-content ul li {
+    padding: 30px;
+}
+
+.icons {
+    justify-content: center;
+}
+
+.icons li img {
+    display: block;
+    width: 20px;
 }
 
 /**general code**/
